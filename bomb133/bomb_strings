@@ -1,0 +1,509 @@
+    318 /lib64/ld-linux-x86-64.so.2
+    368 >X[f
+    729 fgets
+    72f connect
+    737 memmove
+    73f __libc_start_main
+    751 fputc
+    757 fprintf
+    75f socket
+    766 signal
+    76d fopen
+    773 fclose
+    77a strcpy
+    781 cuserid
+    789 strtol
+    790 __ctype_b_loc
+    79e stdout
+    7a5 puts
+    7aa fflush
+    7b1 system
+    7b8 strlen
+    7bf sleep
+    7c5 getenv
+    7d0 tmpfile
+    7d8 sprintf
+    7e0 stdin
+    7e6 gethostbyname
+    7f4 exit
+    7f9 __isoc99_sscanf
+    809 rewind
+    810 fwrite
+    817 libc.so.6
+    821 GLIBC_2.3
+    82b GLIBC_2.7
+    835 GLIBC_2.34
+    840 GLIBC_2.2.5
+    84c _ITM_deregisterTMCloneTable
+    868 __gmon_start__
+    877 _ITM_registerTMCloneTable
+   1211 PTE1
+   161b AUATUSH
+   1631 d$0A
+   16d0 T$ H
+   16d9 D$(H
+   170c X[]A\A]
+   1833 ATUSH
+   188a []A\
+   188f ATUSH
+   1915 []A\
+   19ea AUATUSH
+   1b75 X[]A\A]
+   1bbb $nobof
+   2010 %s: Error: Couldn't open %s
+   202d Usage: %s [<input_file>]
+   2047 That's number 2.  Keep going!
+   2065 Halfway there!
+   2078 Welcome to my fiendish little bomb. You have 6 phases with
+   20b8 which to blow yourself up. Have a nice day!
+   20e8 Phase 1 defused. How about the next one?
+   2118 So you got that one.  Try this one.
+   2140 Congratulations! You've (mostly) defused the bomb!
+   2178 Hit Control-C to escape phase 6 (for free!), but if you want to
+   21b8 try phase 6 for extra credit, you can continue.  Just beware!
+   21f8 Two plus two is ... ten. In base four! I'm fine!
+   2230 Wow! You've defused the secret stage!
+   22e0 So you think you can stop the bomb with ctrl-c, do you?
+   2318 nonexistenthost.cs.washington.edu
+   2340 Curses, you've found the secret phase!
+   2368 But finding it and solving it are quite different...
+   23a0 Congratulations! You've defused the bomb! Again!
+   23d1 Well...
+   23d9 OK. :-)
+   23e1 Invalid phase%s
+   23f2 Bad host (1).
+   2400 Bad host (2).
+   240e Bad host (3).
+   241c defused
+   2424 exploded
+   242d ERROR: dup(0) error
+   2441 ERROR: close error
+   2454 ERROR: tmpfile error
+   2469 Subject: Bomb notification
+   2485 bomb-header:%s:%d:%s:%s:%d
+   24a1 bomb-string:%s:%d:%s:%d:%s
+   24bd bomb
+   24c2 /usr/sbin/sendmail -bm
+   24d9 %s %s@%s
+   24e2 ERROR: notification error
+   24fc ERROR: fclose(tmp) error
+   2515 ERROR: dup(tmpstdin) error
+   2530 ERROR: close(tmpstdin)
+   2548 BOOM!!!
+   2550 The bomb has blown up.
+   2567 %d %d %d %d %d %d
+   2579 Error: Premature EOF on stdin
+   2597 GRADE_BOMB
+   25a2 Error: Input line too long
+   25bd %d %s
+   25c3 austinpowers
+   25d0 attu1.cs.washington.edu
+   25e8 attu2.cs.washington.edu
+   2600 attu3.cs.washington.edu
+   2618 attu4.cs.washington.edu
+   276f ;*3$"
+   3360 uwcse351-23wi-lab2
+   3a00 GCC: (GNU) 11.3.1 20220421 (Red Hat 11.3.1-2)
+   3a40 3p1054
+   3a68 running gcc 11.3.1 20220421
+   3a94 annobin gcc 11.3.1 20220421
+   3ac0 plugin name: gcc-annobin
+   3ae8 GA*GOW
+   3b14 GA+stack_clash
+   3b30 GA*cf_protection
+   3b50 GA*FORTIFY
+   3b6c GA+GLIBCXX_ASSERTIONS
+   3bb8 GA+omit_frame_pointer
+   3bf4 GA!stack_realign
+   3c18 3p1054
+   3c40 running gcc 11.3.1 20220421
+   3c6c annobin gcc 11.3.1 20220421
+   3c98 plugin name: gcc-annobin
+   3cc0 GA*GOW
+   3cec GA+stack_clash
+   3d08 GA*cf_protection
+   3d28 GA*FORTIFY
+   3d44 GA+GLIBCXX_ASSERTIONS
+   3d90 GA+omit_frame_pointer
+   3dcc GA!stack_realign
+   3df0 3p1054
+   3e18 running gcc 11.3.1 20220421
+   3e44 annobin gcc 11.3.1 20220421
+   3e70 plugin name: gcc-annobin
+   3e98 GA*GOW
+   3ec4 GA+stack_clash
+   3ee0 GA*cf_protection
+   3f00 GA*FORTIFY
+   3f1c GA+GLIBCXX_ASSERTIONS
+   3f68 GA+omit_frame_pointer
+   3fa4 GA!stack_realign
+   3fc8 3p1054
+   3ff0 running gcc 11.3.1 20220421
+   401c annobin gcc 11.3.1 20220421
+   4048 plugin name: gcc-annobin
+   4070 GA*GOW
+   409c GA+stack_clash
+   40b8 GA*cf_protection
+   40d8 GA*FORTIFY
+   40f4 GA+GLIBCXX_ASSERTIONS
+   4140 GA+omit_frame_pointer
+   417c GA!stack_realign
+   41a0 3p1054
+   41c8 running gcc 11.3.1 20220421
+   41f4 annobin gcc 11.3.1 20220421
+   4220 plugin name: gcc-annobin
+   4248 GA*GOW
+   4274 GA+stack_clash
+   4290 GA*cf_protection
+   42b0 GA*FORTIFY
+   42cc GA+GLIBCXX_ASSERTIONS
+   4318 GA+omit_frame_pointer
+   4354 GA!stack_realign
+   4378 3p1054
+   43a0 running gcc 11.3.1 20220421
+   43cc annobin gcc 11.3.1 20220421
+   43f8 plugin name: gcc-annobin
+   4420 GA*GOW
+   444c GA+stack_clash
+   4468 GA*cf_protection
+   4488 GA*FORTIFY
+   44a4 GA+GLIBCXX_ASSERTIONS
+   44f0 GA+omit_frame_pointer
+   452c GA!stack_realign
+   4550 3p1054
+   4578 running gcc 11.3.1 20220421
+   45a4 annobin gcc 11.3.1 20220421
+   45d0 plugin name: gcc-annobin
+   45f8 GA*GOW
+   4624 GA+stack_clash
+   4640 GA*cf_protection
+   4660 GA*FORTIFY
+   467c GA+GLIBCXX_ASSERTIONS
+   46c8 GA+omit_frame_pointer
+   4704 GA!stack_realign
+   4728 3p1054
+   4750 running gcc 11.3.1 20220421
+   477c annobin gcc 11.3.1 20220421
+   47a8 plugin name: gcc-annobin
+   47d0 GA*GOW
+   47fc GA+stack_clash
+   4818 GA*cf_protection
+   4838 GA*FORTIFY
+   4854 GA+GLIBCXX_ASSERTIONS
+   48a0 GA+omit_frame_pointer
+   48dc GA!stack_realign
+   4900 3p1054
+   4928 running gcc 11.3.1 20220421
+   4954 annobin gcc 11.3.1 20220421
+   4980 plugin name: gcc-annobin
+   49a8 GA*GOW
+   49d4 GA+stack_clash
+   49f0 GA*cf_protection
+   4a10 GA*FORTIFY
+   4a2c GA+GLIBCXX_ASSERTIONS
+   4a78 GA+omit_frame_pointer
+   4ab4 GA!stack_realign
+   4ad8 3p1054
+   4b00 running gcc 11.3.1 20220421
+   4b2c annobin gcc 11.3.1 20220421
+   4b58 plugin name: gcc-annobin
+   4b80 GA*GOW
+   4bac GA+stack_clash
+   4bc8 GA*cf_protection
+   4be8 GA*FORTIFY
+   4c04 GA+GLIBCXX_ASSERTIONS
+   4c50 GA+omit_frame_pointer
+   4c8c GA!stack_realign
+   4cb0 3p1054
+   4cd8 running gcc 11.3.1 20220421
+   4d04 annobin gcc 11.3.1 20220421
+   4d30 plugin name: gcc-annobin
+   4d58 GA*GOW
+   4d84 GA+stack_clash
+   4da0 GA*cf_protection
+   4dc0 GA*FORTIFY
+   4ddc GA+GLIBCXX_ASSERTIONS
+   4e28 GA+omit_frame_pointer
+   4e64 GA!stack_realign
+   4e84 GA*FORTIFY
+   4eb0 GA+GLIBCXX_ASSERTIONS
+   4ee8 3p1054
+   4f10 running gcc 11.3.1 20220421
+   4f3c annobin gcc 11.3.1 20220421
+   4f68 plugin name: gcc-annobin
+   4f90 GA*GOW
+   4fbc GA+stack_clash
+   4fd8 GA*cf_protection
+   4ff8 GA*FORTIFY
+   5014 GA+GLIBCXX_ASSERTIONS
+   5060 GA+omit_frame_pointer
+   509c GA!stack_realign
+   50c0 3p1054
+   50e8 running gcc 11.3.1 20220421
+   5114 annobin gcc 11.3.1 20220421
+   5140 plugin name: gcc-annobin
+   5168 GA*GOW
+   5194 GA+stack_clash
+   51b0 GA*cf_protection
+   51d0 GA*FORTIFY
+   51ec GA+GLIBCXX_ASSERTIONS
+   5238 GA+omit_frame_pointer
+   5274 GA!stack_realign
+   5298 3p1054
+   52c0 running gcc 11.3.1 20220421
+   52ec annobin gcc 11.3.1 20220421
+   5318 plugin name: gcc-annobin
+   5340 GA*GOW
+   536c GA+stack_clash
+   5388 GA*cf_protection
+   53a8 GA*FORTIFY
+   53c4 GA+GLIBCXX_ASSERTIONS
+   5410 GA+omit_frame_pointer
+   544c GA!stack_realign
+   5470 3p1054
+   5498 running gcc 11.3.1 20220421
+   54c4 annobin gcc 11.3.1 20220421
+   54f0 plugin name: gcc-annobin
+   5518 GA*GOW
+   5544 GA+stack_clash
+   5560 GA*cf_protection
+   5580 GA*FORTIFY
+   559c GA+GLIBCXX_ASSERTIONS
+   55e8 GA+omit_frame_pointer
+   5624 GA!stack_realign
+   5eb6 ;!$9
+   60fb printf
+   6102 __off_t
+   610a _IO_read_ptr
+   6117 _chain
+   611e size_t
+   6125 _shortbuf
+   612f _IO_buf_base
+   613c long long unsigned int
+   6153 read_line
+   615d long long int
+   616b phase_defused
+   6179 _fileno
+   6181 _IO_read_end
+   618e _flags
+   6195 _IO_buf_end
+   61a1 _cur_column
+   61ad _IO_codecvt
+   61b9 _old_offset
+   61c5 infile
+   61cc initialize_bomb
+   61dc _IO_marker
+   61e7 stdin
+   61ed _freeres_buf
+   61fa _IO_write_ptr
+   6208 short unsigned int
+   621b _IO_save_base
+   6229 _lock
+   622f _flags2
+   6237 _mode
+   623d __builtin_puts
+   624c _IO_write_end
+   625a GNU C17 11.3.1 20220421 (Red Hat 11.3.1-2) -mtune=generic -march=x86-64-v2 -ggdb -O
+   62ae _IO_lock_t
+   62b9 _IO_FILE
+   62c2 fopen
+   62c8 _markers
+   62d1 unsigned char
+   62df short int
+   62e9 _IO_wide_data
+   62f7 _vtable_offset
+   6306 exit
+   630b input
+   6311 __off64_t
+   631b _IO_read_base
+   6329 _IO_save_end
+   6336 __pad5
+   633d _unused2
+   6346 argv
+   634b phase_1
+   6353 phase_2
+   635b phase_3
+   6363 phase_4
+   636b phase_5
+   6373 phase_6
+   637b _IO_backup_base
+   638b argc
+   6390 _freeres_list
+   639e main
+   63a3 _IO_write_base
+   63b2 /homes/iws/kun02/cse351TA/cse351-files/labs/lab2/generator/src
+   63f1 bomb.c
+   63f8 /usr/lib/gcc/x86_64-redhat-linux/11/include
+   6424 /usr/include/bits
+   6436 /usr/include/bits/types
+   644e /usr/include
+   645b stddef.h
+   6464 types.h
+   646c struct_FILE.h
+   647a stdio.h
+   6482 phases.h
+   648b support.h
+   6495 stdlib.h
+   649e <built-in>
+   76b1 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o
+   76ee .annobin_abi_note.c
+   7702 .annobin_abi_note.c_end
+   771a .annobin_abi_note.c.hot
+   7732 .annobin_abi_note.c_end.hot
+   774e .annobin_abi_note.c.unlikely
+   776b .annobin_abi_note.c_end.unlikely
+   778c .annobin_abi_note.c.startup
+   77a8 .annobin_abi_note.c_end.startup
+   77c8 .annobin_abi_note.c.exit
+   77e1 .annobin_abi_note.c_end.exit
+   77fe __abi_tag
+   7808 .annobin_init.c
+   7818 .annobin_init.c_end
+   782c .annobin_init.c.hot
+   7840 .annobin_init.c_end.hot
+   7858 .annobin_init.c.unlikely
+   7871 .annobin_init.c_end.unlikely
+   788e .annobin_init.c.startup
+   78a6 .annobin_init.c_end.startup
+   78c2 .annobin_init.c.exit
+   78d7 .annobin_init.c_end.exit
+   78f0 .annobin_static_reloc.c
+   7908 .annobin_static_reloc.c_end
+   7924 .annobin_static_reloc.c.hot
+   7940 .annobin_static_reloc.c_end.hot
+   7960 .annobin_static_reloc.c.unlikely
+   7981 .annobin_static_reloc.c_end.unlikely
+   79a6 .annobin_static_reloc.c.startup
+   79c6 .annobin_static_reloc.c_end.startup
+   79ea .annobin_static_reloc.c.exit
+   7a07 .annobin_static_reloc.c_end.exit
+   7a28 .annobin__dl_relocate_static_pie.start
+   7a4f .annobin__dl_relocate_static_pie.end
+   7a74 crtstuff.c
+   7a7f deregister_tm_clones
+   7a94 __do_global_dtors_aux
+   7aaa completed.0
+   7ab6 __do_global_dtors_aux_fini_array_entry
+   7add frame_dummy
+   7ae9 __frame_dummy_init_array_entry
+   7b08 bomb.c
+   7b0f phases.c
+   7b18 array.0
+   7b20 support.c
+   7b2a sig_handler
+   7b36 __FRAME_END__
+   7b44 _DYNAMIC
+   7b4d __GNU_EH_FRAME_HDR
+   7b60 _GLOBAL_OFFSET_TABLE_
+   7b76 skip
+   7b7b getenv@GLIBC_2.2.5
+   7b8e phase_defused
+   7ba0 __libc_start_main@GLIBC_2.34
+   7bbd _ITM_deregisterTMCloneTable
+   7bd9 stdout@GLIBC_2.2.5
+   7bec strcpy@GLIBC_2.2.5
+   7c03 puts@GLIBC_2.2.5
+   7c14 stdin@GLIBC_2.2.5
+   7c26 _edata
+   7c2d fclose@GLIBC_2.2.5
+   7c50 _fini
+   7c56 strlen@GLIBC_2.2.5
+   7c69 system@GLIBC_2.2.5
+   7c7c num_input_strings
+   7c8e phase_5
+   7c96 rewind@GLIBC_2.2.5
+   7ca9 blank_line
+   7cb4 dup@GLIBC_2.2.5
+   7cc4 phase_3
+   7ccc phase_1
+   7cd4 invalid_phase
+   7ce2 lab_id
+   7ce9 fputc@GLIBC_2.2.5
+   7cfb node3
+   7d01 fgets@GLIBC_2.2.5
+   7d13 explode_bomb
+   7d20 node1
+   7d26 __data_start
+   7d33 tmpfile@GLIBC_2.2.5
+   7d47 signal@GLIBC_2.2.5
+   7d5a gethostbyname@GLIBC_2.2.5
+   7d74 node5
+   7d7a fprintf@GLIBC_2.2.5
+   7d8e __gmon_start__
+   7d9d strtol@GLIBC_2.2.5
+   7db0 fun7
+   7db5 __dso_handle
+   7dc2 _IO_stdin_used
+   7dd5 host_table
+   7de0 func4
+   7de9 string_length
+   7df7 fflush@GLIBC_2.2.5
+   7e0a __isoc99_sscanf@GLIBC_2.7
+   7e2c _dl_relocate_static_pie
+   7e44 secret_phase
+   7e51 infile
+   7e58 __bss_start
+   7e64 main
+   7e75 memmove@GLIBC_2.2.5
+   7e89 read_line
+   7e97 strings_not_equal
+   7ea9 phase_4
+   7eb1 cuserid@GLIBC_2.2.5
+   7ec5 fopen@GLIBC_2.2.5
+   7ed7 phase_6
+   7edf scratch
+   7ee7 send_msg
+   7ef0 phase_2
+   7ef8 open_clientfd
+   7f06 sprintf@GLIBC_2.2.5
+   7f1a exit@GLIBC_2.2.5
+   7f2b bomb_id
+   7f33 connect@GLIBC_2.2.5
+   7f47 fwrite@GLIBC_2.2.5
+   7f5a __TMC_END__
+   7f66 _ITM_registerTMCloneTable
+   7f80 node2
+   7f86 node4
+   7f8c sleep@GLIBC_2.2.5
+   7f9e node6
+   7fa4 _init
+   7faa read_six_numbers
+   7fbf initialize_bomb
+   7fcf __ctype_b_loc@GLIBC_2.3
+   7fe7 socket@GLIBC_2.2.5
+   7ffb .symtab
+   8003 .strtab
+   800b .shstrtab
+   8015 .interp
+   801d .note.gnu.property
+   8030 .note.gnu.build-id
+   8043 .note.ABI-tag
+   8051 .gnu.hash
+   805b .dynsym
+   8063 .dynstr
+   806b .gnu.version
+   8078 .gnu.version_r
+   8087 .rela.dyn
+   8091 .rela.plt
+   809b .init
+   80a1 .text
+   80a7 .fini
+   80ad .rodata
+   80b5 .eh_frame_hdr
+   80c3 .eh_frame
+   80cd .init_array
+   80d9 .fini_array
+   80e5 .dynamic
+   80ee .got
+   80f3 .got.plt
+   80fc .data
+   8102 .bss
+   8107 .comment
+   8110 .gnu.build.attributes
+   8126 .debug_aranges
+   8135 .debug_info
+   8141 .debug_abbrev
+   814f .debug_line
+   815b .debug_str
+   8166 .debug_line_str
+   8176 .debug_loclists
