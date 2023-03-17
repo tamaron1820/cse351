@@ -1,0 +1,30 @@
+******************************
+* Lab 1a Synthesis Questions *
+******************************
+Name(s):  Tatsuhiko Araki
+NetID(s): taraki
+
+
+-----------------------------------------------------------
+1) Use/Benefit and Equation:
+The advantage of using pointers is that it allows access to local variables from another function.　Also, by using pointer arithmetic, it is possible to obtain the value up to the point of the specified pointer.　If the pointer is equal to the array, the pointer contains the address of the first value in the array. A specific example is as follows.
+int array[5];
+int* p;
+
+p = array;
+In this situation, p is &array[0].
+
+-----------------------------------------------------------
+2) Steps:
+
+In C, to calculate the difference in bytes between two memory addresses, the & operator can be used to obtain the address of a variable, and the - operator can be used to subtract two addresses.
+
+It's important to cast the result of the subtraction to size_t to ensure that the result is an unsigned integer, as pointer arithmetic can result in a negative value.
+
+
+-----------------------------------------------------------
+3) Explain:
+
+By using a pointer, local variables can also be accessed from other functions, so by using a pointer to swap, the swap will be reflected in memory, so it is necessary to use a pointer. If the parameter is an integer, the variables of the swap_ints function are local variables, and even if they are exchanged within this function, they are not actually swapped. In other words, the swap is not reflected in memory. 
+
+-----------------------------------------------------------

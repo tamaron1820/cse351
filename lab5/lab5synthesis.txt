@@ -1,0 +1,20 @@
+*****************************
+* Lab 5 Synthesis Questions *
+*****************************
+Name(s): Tatsuhiko Araki 
+NetID(s): taraki
+
+
+-----------------------------------------------------------
+1) Alignment:8 
+   Reasoning: Anytime I allocate, it always allocates in multiple of 8. Therefore, the size of alignment is 8.
+
+
+
+-----------------------------------------------------------
+2) Boundary Tag Size: 8 
+   Reasoning: The boundary tags take up 8 bytes each (4 bytes for the size field and 4 bytes for the status field). I came to this conclusion by observing the difference in addresses between the two heap blocks
+
+
+
+-----------------------------------------------------------

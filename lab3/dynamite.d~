@@ -1,0 +1,12 @@
+
+dynamite.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	48 a1 bc 5e a6 35 13 	movabs 0x4ff66e1335a65ebc,%rax
+   7:	6e f6 4f 
+   a:	bd 10 35 68 55       	mov    $0x55683510,%ebp
+   f:	68 f3 0e 40 00       	pushq  $0x400ef3
+  14:	c3                   	retq   

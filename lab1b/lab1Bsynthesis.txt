@@ -1,0 +1,28 @@
+******************************
+* Lab 1b Synthesis Questions *
+******************************
+Name(s): Tatsuhiko Araki
+NetID(s): taraki
+
+
+-----------------------------------------------------------
+1) Benefit 1:The number of IDs that can be represented has increased due to the increase in ID bits.
+
+   Benefit 2:Both 8-bit and 8-bit distributions are multiples of 4, making conversion from binary to hexadecimal easier.
+
+   Benefit 3:The time taken for num_items was reduced because the number of bits in space was reduced. num_items is used in many other functions, so the overall function time was reduced.
+
+   Drawback:The number of items that can be stored has been reduced because the number of SPACE bits has been reduced.
+
+-----------------------------------------------------------
+2) Difference?  Yes
+
+   Explain: The difference appears when performing the shift operation, as each is an unsigned integer. If y=-1 is shifted 2 to the right, its value will be -1. However, if y=0xFFFFFFFFFFFF is shifted 2 to the right, the value is 1073741823. Thus, if both are unsigned integers, there is a difference.
+
+-----------------------------------------------------------
+3) Explain:Because 
+floating point numbers cannot be represented exactly. If a floating-point number cannot be represented exactly, such as 0.1, it is represented in approximate form. Because the precision of floating-point numbers is finite, there are rounding errors and inaccuracies. Therefore, comparisons of floating-point numbers may appear to be the same but may be different, etc. Therefore, == or ! = is inappropriate.
+
+   Considerations:
+I think we need to consider the scale of the numbers being compared. This is because the larger the number, the larger the acceptable range would be.
+

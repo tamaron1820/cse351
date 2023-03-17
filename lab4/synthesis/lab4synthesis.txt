@@ -1,0 +1,55 @@
+*****************************
+* Lab 4 Synthesis Questions *
+*****************************
+Name(s): Tatsuhiko Araki  
+NetID(s): taraki
+
+
+-----------------------------------------------------------
+1) Instructions in the nested loops that access memory
+   lab0.d:    15
+   List of instructions for lab0.d:
+4009a6: 8b 55 ec            mov    -0x14(%rbp),%edx
+4009a9: 8b 45 e8            mov    -0x18(%rbp),%eax
+4009ac: 8d 1c 02            lea    (%rdx,%rax,1),%ebx
+4009af: 8b 55 e4            mov    -0x1c(%rbp),%edx
+4009b2: 8b 4d e8            mov    -0x18(%rbp),%ecx
+4009b5: 8b 45 ec            mov    -0x14(%rbp),%eax
+4009c3: 48 8d 14 85 00 00 00 lea    0x0(,%rax,4),%rdx
+4009cb: 48 8b 45 d8         mov    -0x28(%rbp),%rax
+4009cf: 48 01 d0            add    %rdx,%rax
+4009d2: 8b 55 e4            mov    -0x1c(%rbp),%edx
+4009d5: 01 da               add    %ebx,%edx
+4009d7: 89 10               mov    %edx,(%rax)
+4009d9: 83 45 e4 01         addl   $0x1,-0x1c(%rbp)
+4009dd: 81 7d e4 f3 01 00 00 cmpl   $0x1f3,-0x1c(%rbp)
+4009e6: 83 45 e8 01         addl   $0x1,-0x18(%rbp)
+   
+   lab0opt.d: 3
+   List of instructions for lab0opt.d:
+400995:       48 8d 85 40 42 0f 00    lea    0xf4240(%rbp),%rax
+40099f:       48 8d b0 c0 bd f0 ff    lea    -0xf4240(%rax),%rsi
+4009bb:       89 0c 96                mov    %ecx,(%rsi,%rdx,4)
+
+-----------------------------------------------------------
+2) Where are the loop variables stored in lab0.d:
+   i:-0x14(%rbp) 
+   j:-0x18(%rbp)
+   k:-0x1c(%rbp)
+-----------------------------------------------------------
+3) Corresponding values in lab0opt.d:
+   %edx:k
+   %ecx: i+j+k
+-----------------------------------------------------------
+4) Effect on number of misses:increase
+
+   Explain: 
+Cache blocks are usually larger than the size of a single element of the matrix, so if the starting address of A is not aligned with the beginning of a cache block, some elements of the matrix may be split across multiple cache blocks. This would result in additional cache misses when accessing those elements, as each cache block would need to be fetched separately. The amount of increase in cache misses would depend on the size of the cache block and the alignment of the starting address of A with respect to the cache block boundaries.
+
+
+-----------------------------------------------------------
+5) Effect on number of misses: increase
+
+   Explain: 
+The number of misses would increase if the code were to run for a matrix of size 57 x 71 compared to a 64 x 64 matrix. This is because the 64 x 64 matrix fits perfectly into cache blocks and is optimized for cache access, whereas the 57 x 71 matrix is not an exact multiple of the cache block size and is likely to result in cache misses due to cache conflicts. Since cache blocks are typically 64 bytes in size, a 57 x 71 matrix would be split across multiple cache blocks, causing cache conflicts and increasing the number of cache misses.
+-----------------------------------------------------------
